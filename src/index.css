@@ -1,13 +1,196 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(20, 20, 20, 0.6 );
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#container{
+  background: rgb(255, 255, 255);
+  max-width: 100%;
+  width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: bold;
+  color: rgba(100, 100, 100, 0.9 );
+}
+
+nav #focus{
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3 );
+  border-right: 1px solid rgba(100, 100, 100, 0.3 );
+}
+
+nav #focusTwo{
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3 );
+  border-left: 1px solid rgba(100, 100, 100, 0.3 );
+}
+
+nav p {
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 40px;
+}
+
+main p{
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(100, 100, 100, 0.9 );
+  line-height: 1.7em;
+  padding: 0 70px;
+  margin-bottom: 40px;
+}
+
+form{
+  max-width: 90%;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(100, 100, 100, 0.3 );
+  font-weight: bold;
+  color: rgba(100, 100, 100, 0.9 );
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#submit{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  margin-top: 10px;
+  background: rgba(0, 255, 255, 0.3);
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(100, 100, 100, 0.9 );
+  margin-bottom: 20px;
+}
+
+hr{
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p{
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(100, 100, 100, 0.9 );
+  margin-top: 30px;
+}
+
+#oauth{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding-bottom: 30px; 
+  text-align: center;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#facebook{
+  background-color: rgba(35, 35, 121, 0.9);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+#twitter{
+  background-color: white;
+  color: rgba(100, 100, 100, 0.9 );
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgba(100, 100, 100, 0.3 );
+}
+
+#facebook i{
+  padding-right: 10px;
+}
+
+#twitter i{
+  color: blue;
+  padding-right: 10px;
+}
+
+aside#last{
+  color: white;
+  text-align: center;
+  margin-top: -30px;
+}
+
+aside#flash-success{
+  text-align: center;
+  background: rgb(130, 248, 130);
+  height: 50px;
+  max-width: 100%;
+  width: 600px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+aside#flash-error{
+  text-align: center;
+  background: rgb(248, 130, 130);
+  height: 50px;
+  max-width: 100%;
+  width: 600px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#profile-container{
+  background: rgb(255, 255, 255);
+  max-width: 100%;
+  width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+#profile-container h1{
+  text-align: center;
+  font-weight: 500;
+  font-size: 27px;
+  padding-top: 40px;
+}
+
+#profile-container p{
+  margin-left: 20px;
+}
+
+#profile-container p#email{
+  margin-top: 40px;
+}
+
+#profile-container p#username{
+  padding-bottom: 40px;
 }
