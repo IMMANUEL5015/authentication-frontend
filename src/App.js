@@ -1,7 +1,6 @@
 import { Signup } from './components/signup/signup';
 import { Login } from './components/login/login';
 import { Profile } from './components/profile/profile';
-import logo from './logo.svg';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
