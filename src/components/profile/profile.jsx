@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 export const Profile = (props) => (
     <div id="profile-container">
