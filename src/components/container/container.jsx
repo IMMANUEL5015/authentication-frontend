@@ -1,18 +1,10 @@
 import React from 'react';
+import { Header } from '../header/header';
 import './container.css';
 
 export const Container = (props) => (
     <div id="container">
-        <header>
-            <nav>
-                <div id="focus">
-                    <p onClick={() => props.history.push('/login')}>Sign In</p>
-                </div>
-                <div>
-                    <p onClick={() => props.history.push('/login')}>Sign Up</p>
-                </div>
-            </nav>
-        </header>
+        <Header {...props} focus="focus" />
 
         <main>
             <h1>Log Into Your Account</h1>
