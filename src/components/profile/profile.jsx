@@ -1,4 +1,5 @@
 import React from 'react';
+import './profile.css';
 
 export const Profile = (props) => (
     <div id="profile-container">

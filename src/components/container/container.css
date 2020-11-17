@@ -17,30 +17,3 @@
     text-align: center;
     margin-top: -30px;
   }
-  
-  #profile-container{
-    background: rgb(255, 255, 255);
-    max-width: 100%;
-    width: 600px;
-    margin: 50px auto;
-    border-radius: 10px;
-  }
-  
-  #profile-container h1{
-    text-align: center;
-    font-weight: 500;
-    font-size: 27px;
-    padding-top: 40px;
-  }
-  
-  #profile-container p{
-    margin-left: 20px;
-  }
-  
-  #profile-container p#email{
-    margin-top: 40px;
-  }
-  
-  #profile-container p#username{
-    padding-bottom: 40px;
-  }
