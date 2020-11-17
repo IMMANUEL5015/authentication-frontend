@@ -24,3 +24,7 @@
   #profile-container p#username{
     padding-bottom: 40px;
   }
+
+  strong{
+    margin-right: 5px;
+  }

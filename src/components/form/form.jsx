@@ -3,7 +3,7 @@ import { Input } from '../input/input';
 import { Button } from '../button/button';
 import './form.css';
 
-export const Form = () => (
+export const Form = (props) => (
     <form action="#">
         <Input type="text" name="username" id="username" placeholder="User name" />
         <Input type="text" name="email" id="email" placeholder="Email" />

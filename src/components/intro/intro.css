@@ -5,7 +5,7 @@ h1{
     margin-top: 40px;
   }
   
-  main p{
+  section p, main p{
     text-align: center;
     font-size: 12px;
     font-weight: bold;
@@ -13,4 +13,13 @@ h1{
     line-height: 1.7em;
     padding: 0 70px;
     margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 499px){
+    h1{
+      font-size: 24px;
+    }
+    section p, main p{
+      padding: 0 20px;
+    }
   }

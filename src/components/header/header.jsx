@@ -7,7 +7,7 @@ export const Header = (props) => (
             <div id={props.focus}>
                 <p onClick={() => props.history.push('/login')}>Sign In</p>
             </div>
-            <div>
+            <div id={props.focusTwo}>
                 <p onClick={() => props.history.push('/signup')}>Sign Up</p>
             </div>
         </nav>

@@ -42,3 +42,10 @@ footer p{
     color: blue;
     padding-right: 10px;
   }
+
+  @media screen and (max-width: 499px){
+    #oauth{
+      grid-template-columns: 1fr;
+      width: 90%;
+    }
+  }
