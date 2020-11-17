@@ -1,10 +1,9 @@
 import React from 'react';
+import { Alert } from '../alerts/alerts.jsx';
 
 export const Signup = (props) => (
     <div>
-        <aside id="flash-success">
-            <p>Your registration was successfull!</p>
-        </aside>
+        <Alert success="flash-success" message="Your registration was successfull!" />
         <div id="container">
             <header>
                 <nav>

@@ -1,11 +1,9 @@
 import React from 'react';
+import { Alert } from '../alerts/alerts.jsx';
 
 export const Login = (props) => (
     <div>
-        <aside id="flash-error">
-            <p>Please confirm your password!</p>
-        </aside>
-
+        <Alert success="flash-error" message="Please confirm your password!" />
         <div id="container">
             <header>
                 <nav>

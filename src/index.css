@@ -146,28 +146,6 @@ aside#last{
   margin-top: -30px;
 }
 
-aside#flash-success{
-  text-align: center;
-  background: rgb(130, 248, 130);
-  height: 50px;
-  max-width: 100%;
-  width: 600px;
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
-}
-
-aside#flash-error{
-  text-align: center;
-  background: rgb(248, 130, 130);
-  height: 50px;
-  max-width: 100%;
-  width: 600px;
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
-}
-
 #profile-container{
   background: rgb(255, 255, 255);
   max-width: 100%;
