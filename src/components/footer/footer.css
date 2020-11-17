@@ -1,0 +1,44 @@
+footer p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(100, 100, 100, 0.9 );
+    margin-top: 30px;
+  }
+  
+  #oauth{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding-bottom: 30px; 
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #facebook{
+    background-color: rgba(35, 35, 121, 0.9);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #twitter{
+    background-color: white;
+    color: rgba(100, 100, 100, 0.9 );
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(100, 100, 100, 0.3 );
+  }
+  
+  #facebook i{
+    padding-right: 10px;
+  }
+  
+  #twitter i{
+    color: blue;
+    padding-right: 10px;
+  }
