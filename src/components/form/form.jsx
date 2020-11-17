@@ -1,5 +1,6 @@
 import React from 'react';
 import { Input } from '../input/input';
+import { Button } from '../button/button';
 import './form.css';
 
 export const Form = () => (
@@ -8,8 +9,6 @@ export const Form = () => (
         <Input type="text" name="email" id="email" placeholder="Email" />
         <Input type="password" name="password" id="password" placeholder="Password" />
         <Input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" />
-        <div id="submit">
-            <button>SIGN UP</button>
-        </div>
+        <Button text="SIGN UP"></Button>
     </form>
 );
